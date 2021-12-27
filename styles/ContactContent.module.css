@@ -1,0 +1,35 @@
+.container{
+    background-color: whitesmoke;
+    flex:1;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form_line{
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid silver;
+}
+.form_line > input,.form_line > textarea{
+    padding:0.5rem;
+    border:none;
+    outline:none;
+    resize: vertical;
+}
+
+.form_line2 > button{
+    width:200px;
+    margin:auto;
+    padding:1rem;
+    border:none;
+    background-color: indianred;
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

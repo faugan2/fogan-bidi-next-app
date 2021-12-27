@@ -1,0 +1,50 @@
+.container{
+    background-color: whitesmoke;
+    flex:1;
+    padding:1rem;
+    
+}
+
+.about{
+    padding:0 1rem;
+}
+.about_title{
+    text-align: center;
+}
+.skills{
+    display:flex;
+    gap:1rem;
+}
+.skill{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.skill:hover{
+    opacity: 0.6;
+}
+.skill_img{
+    border-radius: 5px;
+}
+.zone_btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn_contact{
+    padding:1rem;
+    cursor: pointer;
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: indianred;
+    color:whitesmoke;
+    border-radius: 5px;
+}

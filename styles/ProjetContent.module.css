@@ -1,0 +1,40 @@
+.container{
+    background-color: whitesmoke;
+    flex:1;
+    padding:1rem;
+}
+
+.line_image{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+.image_item{
+    flex:1;
+}
+.project{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.project_title{
+    margin:0;
+}
+.books{
+   width:400px;
+    
+}
+
+.projet_content{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.books_list{
+
+}
+.book_item{
+    padding:0.5rem;
+    font-size: 0.9rem;
+}
