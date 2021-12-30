@@ -16,13 +16,13 @@ const ProjetContent=()=>{
                </p>
                <div className={styles.line_image}>
                     <div className={styles.image_item}>
-                        <img src="/projects/4.jpg" width="100" height="80" layout="responsive" />
+                        <img src="/projects/4.jpg"  layout="responsive" />
                     </div>
                     <div className={styles.image_item}>
-                        <img src="/projects/2.jpg" width="100" height="80" layout="responsive" />
+                        <img src="/projects/2.jpg" layout="responsive" />
                     </div>
                     <div className={styles.image_item}>
-                        <img src="/projects/3.jpg" width="100" height="80" layout="responsive" />
+                        <img src="/projects/3.jpg"  layout="responsive" />
                     </div>
                </div>
            </div>

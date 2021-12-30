@@ -12,6 +12,9 @@
 .image_item{
     flex:1;
 }
+.image_item > img{
+    width:100%;
+}
 .project{
     display:flex;
     flex-direction: column;

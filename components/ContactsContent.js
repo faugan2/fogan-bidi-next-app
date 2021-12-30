@@ -24,7 +24,7 @@ const ProjetContent= ()=>{
         const btn=e.target;
         btn.disabled=true;
         btn.innerText="Please wait...";
-        console.log(server);
+        console.log(`${server}/api/contact`);
 
         const req=await fetch(`${server}/api/contact`,{
             method:"POST",
@@ -34,13 +34,14 @@ const ProjetContent= ()=>{
             }
         })
 
-        const res=await req.json();
+        const res=await req.text();
+        console.log("the result is ",res)
         btn.disabled=false;
         btn.innerText="Send";
         set_name("");
         set_email("");
         set_message("");
-       alert("Votre message a été bien envoyé");
+       alert("Your message is sent successfuly");
 
     }
 

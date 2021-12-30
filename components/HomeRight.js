@@ -1,5 +1,6 @@
 
 import styles from "../styles/HomeRight.module.css";
+import Link from "next/link";
 
 const HomeRight=()=>{
     return (
@@ -19,7 +20,7 @@ const HomeRight=()=>{
                     you can get in touch with me by clicking the button bellow. 
                 </p>
                 <div className={styles.zone_btn}>
-                    <button className={styles.btn_contact}>Reach Out To Me</button>
+                    <Link href="/contacts"><a  className={styles.btn_contact}>Reach Out To Me</a></Link>
                 </div>
                 
             </div>
@@ -29,15 +30,15 @@ const HomeRight=()=>{
                 <h2 className={styles.about_title}>Ways that I can help</h2>
                 <div className={styles.skills}>
                     <div className={styles.skill}>
-                        <img src="/webdev.png" width={100} height={80} layout="responsive" className={styles.skill_img} />
+                        <img src="/webdev.png" layout="responsive" className={styles.skill_img} />
                         <h3>Web Development</h3>
                     </div>
                     <div className={styles.skill}>
-                        <img src="/mobiledev.png" width={100} height={80} layout="responsive" className={styles.skill_img} />
+                        <img src="/mobiledev.png"  layout="responsive" className={styles.skill_img} />
                         <h3>Mobile Development</h3>
                     </div>
                     <div className={styles.skill}>
-                        <img src="/desktopdev.png" width={100} height={80} layout="responsive" className={styles.skill_img} />
+                        <img src="/desktopdev.png" layout="responsive" className={styles.skill_img} />
                         <h3>Desktop Development</h3>
                     </div>
                 </div>

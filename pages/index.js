@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={Styles.container}>
       <Head>  
-        <title>Home page</title>
+        <title>Fogan BIDI</title>
         <meta charset="utf-8" />
       </Head>
       <HomeLeft />
